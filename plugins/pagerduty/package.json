@@ -32,7 +32,7 @@
     "prepack": "backstage-cli package prepack",
     "postpack": "backstage-cli package postpack",
     "clean": "backstage-cli package clean",
-    "postinstall": "tsc --outDir ./build"
+    "postinstall": "yarn build"
   },
   "dependencies": {
     "@backstage/catalog-model": "^1.0.3-next.0",
